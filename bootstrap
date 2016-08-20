@@ -1,0 +1,6 @@
+#!/bin/bash
+CMD_PATH=`dirname $0`
+cd $CMD_PATH
+pod install --verbose --no-repo-update
+open *.xcworkspace
+exit 0

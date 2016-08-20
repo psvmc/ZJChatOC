@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZJChatViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PZJ-lR-edy">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="MEr-R8-5md">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="516"/>
+                            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        </tableView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wUk-xm-vtc">
+                            <rect key="frame" x="0.0" y="516" width="320" height="52"/>
+                            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="52" id="bsU-qm-RpH"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="wUk-xm-vtc" secondAttribute="bottom" id="0oB-GE-wqf"/>
+                        <constraint firstAttribute="trailing" secondItem="wUk-xm-vtc" secondAttribute="trailing" id="Dws-aA-Yvc"/>
+                        <constraint firstAttribute="trailing" secondItem="MEr-R8-5md" secondAttribute="trailing" id="OS5-hI-lAX"/>
+                        <constraint firstItem="wUk-xm-vtc" firstAttribute="leading" secondItem="PZJ-lR-edy" secondAttribute="leading" id="RIX-we-IwB"/>
+                        <constraint firstAttribute="bottom" secondItem="MEr-R8-5md" secondAttribute="bottom" constant="52" id="XUb-69-3Pq"/>
+                        <constraint firstItem="MEr-R8-5md" firstAttribute="top" secondItem="PZJ-lR-edy" secondAttribute="top" id="aGL-gm-KcL"/>
+                        <constraint firstItem="MEr-R8-5md" firstAttribute="leading" secondItem="PZJ-lR-edy" secondAttribute="leading" id="gMo-Be-s28"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="PZJ-lR-edy" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="5ap-3j-Ll9"/>
+                <constraint firstAttribute="trailing" secondItem="PZJ-lR-edy" secondAttribute="trailing" id="JXY-vf-hlA"/>
+                <constraint firstItem="PZJ-lR-edy" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="gKQ-lH-8wr"/>
+                <constraint firstAttribute="bottom" secondItem="PZJ-lR-edy" secondAttribute="bottom" id="oX1-U7-65T"/>
+            </constraints>
+            <point key="canvasLocation" x="140" y="417"/>
+        </view>
+    </objects>
+</document>
