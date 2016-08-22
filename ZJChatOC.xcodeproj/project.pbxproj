@@ -154,6 +154,7 @@
 		3FEB90F31D65B0EF00116061 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEB90EE1D65B0EF00116061 /* libopencore-amrwb.a */; };
 		3FEB90F61D65B3E500116061 /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB90F51D65B3E500116061 /* NSString+Common.m */; };
 		3FEB90FB1D65B46800116061 /* NSString+Emojize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB90FA1D65B46800116061 /* NSString+Emojize.m */; };
+		3FF4A3DF1D682F6000B129FF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF4A3DE1D682F6000B129FF /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -361,6 +362,7 @@
 		3FEB90F81D65B46800116061 /* emojis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = emojis.h; sourceTree = "<group>"; };
 		3FEB90F91D65B46800116061 /* NSString+Emojize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emojize.h"; sourceTree = "<group>"; };
 		3FEB90FA1D65B46800116061 /* NSString+Emojize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emojize.m"; sourceTree = "<group>"; };
+		3FF4A3DE1D682F6000B129FF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		94D7666E3C70ED33F07D1098 /* Pods-ZJChatOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJChatOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJChatOC/Pods-ZJChatOC.release.xcconfig"; sourceTree = "<group>"; };
 		C7ECD4AA0197A3C3D6372126 /* Pods-ZJChatOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJChatOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJChatOC/Pods-ZJChatOC.debug.xcconfig"; sourceTree = "<group>"; };
 		DE6C703F1F2CAD3FB5E255E0 /* libPods-ZJChatOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZJChatOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -371,6 +373,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF4A3DF1D682F6000B129FF /* AVFoundation.framework in Frameworks */,
 				3FBA03251D61C52800F72C48 /* UIKit.framework in Frameworks */,
 				3FEB90F21D65B0EF00116061 /* libopencore-amrnb.a in Frameworks */,
 				3FEB90F31D65B0EF00116061 /* libopencore-amrwb.a in Frameworks */,
@@ -393,6 +396,7 @@
 		2D5D91D41650341CBCFD17B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3FF4A3DE1D682F6000B129FF /* AVFoundation.framework */,
 				3FBA03241D61C52700F72C48 /* UIKit.framework */,
 				DE6C703F1F2CAD3FB5E255E0 /* libPods-ZJChatOC.a */,
 			);

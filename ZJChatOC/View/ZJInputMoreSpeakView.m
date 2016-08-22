@@ -11,6 +11,7 @@
 #import "AudioRecordView.h"
 #import "AudioVolumeView.h"
 #import "UIColor+expanded.h"
+#import "Masonry.h"
 
 typedef NS_ENUM(NSInteger, UIMessageInputView_VoiceState) {
     UIMessageInputView_VoiceStateReady,
@@ -39,6 +40,10 @@ typedef NS_ENUM(NSInteger, UIMessageInputView_VoiceState) {
         _recordTipsLabel = [[UILabel alloc] init];
         _recordTipsLabel.font = [UIFont systemFontOfSize:18];
         [self addSubview:_recordTipsLabel];
+        [_recordTipsLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.centerX.equalTo(self);
+            make.top.equalTo(self).offset(8);
+        }];
         
         _volumeLeftView = [[AudioVolumeView alloc] initWithFrame:CGRectMake(0, 0, kAudioVolumeViewWidth, kAudioVolumeViewHeight)];
         _volumeLeftView.type = AudioVolumeViewTypeLeft;
@@ -53,15 +58,23 @@ typedef NS_ENUM(NSInteger, UIMessageInputView_VoiceState) {
         _recordView = [[AudioRecordView alloc] initWithFrame:CGRectMake((self.frame.size.width - 86) / 2, 62, 86, 86)];
         _recordView.delegate = self;
         [self addSubview:_recordView];
+        [_recordView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.width.equalTo(@(86));
+            make.height.equalTo(@(86));
+            make.centerX.equalTo(self);
+            make.top.equalTo(self).offset(62);
+        }];
         
         UILabel *tipLabel = [[UILabel alloc] init];
         tipLabel.font = [UIFont systemFontOfSize:12];
         tipLabel.textColor = [UIColor colorWithRGBHex:0x999999];
         tipLabel.text = @"向上滑动，取消发送";
         [tipLabel sizeToFit];
-        tipLabel.center = CGPointMake(self.frame.size.width/2, self.frame.size.height-25);
         [self addSubview:tipLabel];
-        
+        [tipLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.centerX.equalTo(self);
+            make.bottom.equalTo(self).offset(-15);
+        }];
         _duration = 0;
         self.state = UIMessageInputView_VoiceStateReady;
     }
