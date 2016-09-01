@@ -11,6 +11,7 @@
 #import "SMPageControl.h"
 #import "UIColor+expanded.h"
 #import "UIView+Common.h"
+#import "Masonry.h"
 static const NSUInteger DefaultRecentEmojisMaintainedCount = 50;
 
 static NSString *const segmentRecentName = @"Recent";
@@ -470,12 +471,24 @@ NSString *const RecentUsedEmojiCharactersKey = @"RecentUsedEmojiCharactersKey";
     self.scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.frame) -_buttonWidth, CGRectGetHeight(self.frame))];
     self.scrollView.delegate = nil;
     [self addSubview:self.scrollView];
+    [self.scrollView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(self);
+        make.right.equalTo(self).offset(_buttonWidth);
+        make.bottom.equalTo(self);
+        make.top.equalTo(self);
+    }];
     for (int i=0; i<self.numOfTabs; i++) {
         UIButton *button = [self tabButtonWithIndex:i];
         [self.scrollView addSubview:button];
         [self.tabButtons addObject:button];
     }
 }
+
+-(void)layoutSubviews{
+    [super layoutSubviews];
+    [self addLineUp:YES andDown:NO andColor:[UIColor colorWithHexString:@"0xdddddd"]];
+}
+
 - (void)configSendButton{
     self.sendButton = [[UIButton alloc] initWithFrame:CGRectMake(CGRectGetWidth(self.frame) -self.buttonWidth, 0, self.buttonWidth, CGRectGetHeight(self.frame))];
     [self.sendButton setBackgroundColor:[UIColor colorWithHexString:@"0x3bbd79"]];
@@ -484,6 +497,13 @@ NSString *const RecentUsedEmojiCharactersKey = @"RecentUsedEmojiCharactersKey";
     [self.sendButton setTitle:@"发送" forState:UIControlStateNormal];
     [self.sendButton addTarget:self action:@selector(sendButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:self.sendButton];
+    
+    [self.sendButton mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.width.equalTo(@(self.buttonWidth));
+        make.right.equalTo(self);
+        make.bottom.equalTo(self);
+        make.top.equalTo(self);
+    }];
 }
 
 - (void)sendButtonClicked:(id)sender{
