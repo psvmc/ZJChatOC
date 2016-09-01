@@ -188,16 +188,25 @@
 }
 
 -(void)showInputMoreView{
+    self.bottomHeight = 215;
     __weak typeof (self) weakself = self;
-    [UIView animateWithDuration:0.25 animations:^{
+    [self endEditing:true];
+    [self.delegate inputViewBottomHeightChange:215];
+    [UIView animateWithDuration:0.25 delay:0 options:0 animations:^{
         weakself.transform = CGAffineTransformMakeTranslation(0,-215);
+    } completion:^(BOOL finished) {
+        
     }];
 }
 
 -(void)hideInputMoreView{
     __weak typeof (self) weakself = self;
+    self.bottomHeight = 0;
+    [self.delegate inputViewBottomHeightChange:0];
     [UIView animateWithDuration:0.25 animations:^{
         weakself.transform = CGAffineTransformIdentity;
+    } completion:^(BOOL finished) {
+        
     }];
 }
 
@@ -256,6 +265,11 @@
         [weakself.inputBarView changeStatus:InputBarViewStateNormal];
         [self updateInputTextView];
     }];
+}
+
+-(void) restoreDefault{
+    [self endEditing:true];
+    [self hideInputMoreView];
 }
 
 
