@@ -97,7 +97,6 @@
 		3FC13DC51D751E2000EB7C09 /* ZJInputMoreSpeakView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FC13DB01D751E2000EB7C09 /* ZJInputMoreSpeakView.xib */; };
 		3FC13DC61D751E2000EB7C09 /* ZJInputMoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC13DB21D751E2000EB7C09 /* ZJInputMoreView.m */; };
 		3FC13DC71D751E2000EB7C09 /* ZJInputMoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FC13DB31D751E2000EB7C09 /* ZJInputMoreView.xib */; };
-		3FC13DC81D751E2000EB7C09 /* ZJXibView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC13DB51D751E2000EB7C09 /* ZJXibView.m */; };
 		3FC13DCD1D75203400EB7C09 /* MessageImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC13DCB1D75203400EB7C09 /* MessageImageTableViewCell.m */; };
 		3FC13DCE1D75203400EB7C09 /* MessageImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FC13DCC1D75203400EB7C09 /* MessageImageTableViewCell.xib */; };
 		3FC13DD21D75206900EB7C09 /* MessageVoiceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC13DD01D75206900EB7C09 /* MessageVoiceTableViewCell.m */; };
@@ -110,6 +109,7 @@
 		3FC13DE11D7527B700EB7C09 /* messageRight_bg_img@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC13DDD1D7527B700EB7C09 /* messageRight_bg_img@2x.png */; };
 		3FC13DE41D755E6D00EB7C09 /* ZJMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC13DE31D755E6D00EB7C09 /* ZJMessageModel.m */; };
 		3FC13DE81D75825500EB7C09 /* ZJInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC13DE71D75825500EB7C09 /* ZJInputView.m */; };
+		3FC251E01DCC51FB006690E8 /* ZJXibView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC251DF1DCC51FA006690E8 /* ZJXibView.m */; };
 		3FEB909E1D65A2CD00116061 /* coding_emoji_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEB906B1D65A2CD00116061 /* coding_emoji_01@2x.png */; };
 		3FEB909F1D65A2CD00116061 /* coding_emoji_02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEB906C1D65A2CD00116061 /* coding_emoji_02@2x.png */; };
 		3FEB90A01D65A2CD00116061 /* coding_emoji_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEB906D1D65A2CD00116061 /* coding_emoji_03@2x.png */; };
@@ -308,8 +308,6 @@
 		3FC13DB11D751E2000EB7C09 /* ZJInputMoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJInputMoreView.h; sourceTree = "<group>"; };
 		3FC13DB21D751E2000EB7C09 /* ZJInputMoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJInputMoreView.m; sourceTree = "<group>"; };
 		3FC13DB31D751E2000EB7C09 /* ZJInputMoreView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJInputMoreView.xib; sourceTree = "<group>"; };
-		3FC13DB41D751E2000EB7C09 /* ZJXibView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJXibView.h; sourceTree = "<group>"; };
-		3FC13DB51D751E2000EB7C09 /* ZJXibView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJXibView.m; sourceTree = "<group>"; };
 		3FC13DCA1D75203400EB7C09 /* MessageImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageImageTableViewCell.h; sourceTree = "<group>"; };
 		3FC13DCB1D75203400EB7C09 /* MessageImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageImageTableViewCell.m; sourceTree = "<group>"; };
 		3FC13DCC1D75203400EB7C09 /* MessageImageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageImageTableViewCell.xib; sourceTree = "<group>"; };
@@ -326,6 +324,8 @@
 		3FC13DE31D755E6D00EB7C09 /* ZJMessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJMessageModel.m; sourceTree = "<group>"; };
 		3FC13DE61D7580D100EB7C09 /* ZJInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJInputView.h; sourceTree = "<group>"; };
 		3FC13DE71D75825500EB7C09 /* ZJInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJInputView.m; sourceTree = "<group>"; };
+		3FC251DE1DCC51FA006690E8 /* ZJXibView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJXibView.h; sourceTree = "<group>"; };
+		3FC251DF1DCC51FA006690E8 /* ZJXibView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJXibView.m; sourceTree = "<group>"; };
 		3FEB906B1D65A2CD00116061 /* coding_emoji_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coding_emoji_01@2x.png"; sourceTree = "<group>"; };
 		3FEB906C1D65A2CD00116061 /* coding_emoji_02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coding_emoji_02@2x.png"; sourceTree = "<group>"; };
 		3FEB906D1D65A2CD00116061 /* coding_emoji_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coding_emoji_03@2x.png"; sourceTree = "<group>"; };
@@ -437,6 +437,8 @@
 		3F4EAC251D649C8800C1208C /* ZJLib */ = {
 			isa = PBXGroup;
 			children = (
+				3FC251DE1DCC51FA006690E8 /* ZJXibView.h */,
+				3FC251DF1DCC51FA006690E8 /* ZJXibView.m */,
 				3F4EAC261D649C8800C1208C /* UIView+Border&CornerRadius.h */,
 				3F4EAC271D649C8800C1208C /* UIView+Border&CornerRadius.m */,
 				3F4EAC281D649C8800C1208C /* ZJ_Func.h */,
@@ -710,8 +712,6 @@
 				3FC13D951D751E2000EB7C09 /* AudioView */,
 				3FC13D9E1D751E2000EB7C09 /* Cell */,
 				3FC13DE51D7578B600EB7C09 /* InputBar */,
-				3FC13DB41D751E2000EB7C09 /* ZJXibView.h */,
-				3FC13DB51D751E2000EB7C09 /* ZJXibView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -964,7 +964,7 @@
 		3FB4ECF21D61B77F00BFCE8F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "张剑";
 				TargetAttributes = {
 					3FB4ECF91D61B77F00BFCE8F = {
@@ -1172,13 +1172,13 @@
 				3FC13DC21D751E2000EB7C09 /* ZJInputMoreOtherView.m in Sources */,
 				3FBA03C21D61CA0900F72C48 /* UIDevice+Info.m in Sources */,
 				3FBA03CA1D61CA0900F72C48 /* UIViewController+BackButtonHandler.m in Sources */,
-				3FC13DC81D751E2000EB7C09 /* ZJXibView.m in Sources */,
 				3F4EAC2A1D649C8800C1208C /* UIView+Border&CornerRadius.m in Sources */,
 				3FBA03B41D61CA0900F72C48 /* NSDate+convenience.m in Sources */,
 				3F9C60A61D62A5BA00C41E41 /* NSDate+Helper.m in Sources */,
 				3FBA03C81D61CA0900F72C48 /* UIView+Frame.m in Sources */,
 				3FB4ED321D61BA1E00BFCE8F /* AGEmojiKeyBoardView.m in Sources */,
 				3FB4ED3D1D61BA1E00BFCE8F /* QBImagePickerController.m in Sources */,
+				3FC251E01DCC51FB006690E8 /* ZJXibView.m in Sources */,
 				3FB4ED371D61BA1E00BFCE8F /* QBAssetsCollectionFooterView.m in Sources */,
 				3FEB90F01D65B0EF00116061 /* AudioAmrUtil.m in Sources */,
 				3FBA03C31D61CA0900F72C48 /* UIImage+Common.m in Sources */,
@@ -1249,8 +1249,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1293,8 +1295,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
