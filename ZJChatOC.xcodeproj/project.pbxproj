@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DFE8F2738B6722ED29E2644 /* libPods-ZJChatOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6C703F1F2CAD3FB5E255E0 /* libPods-ZJChatOC.a */; };
 		3F4EAC2A1D649C8800C1208C /* UIView+Border&CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4EAC271D649C8800C1208C /* UIView+Border&CornerRadius.m */; };
 		3F4EAC2B1D649C8800C1208C /* ZJ_Func.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4EAC291D649C8800C1208C /* ZJ_Func.m */; };
 		3F9C60A11D62A54C00C41E41 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C60A01D62A54C00C41E41 /* UIView+Common.m */; };
@@ -168,9 +167,11 @@
 		3FEB90F61D65B3E500116061 /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB90F51D65B3E500116061 /* NSString+Common.m */; };
 		3FEB90FB1D65B46800116061 /* NSString+Emojize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB90FA1D65B46800116061 /* NSString+Emojize.m */; };
 		3FF4A3DF1D682F6000B129FF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF4A3DE1D682F6000B129FF /* AVFoundation.framework */; };
+		6CEF704DB9F52D2D77CBDFE9 /* libPods-ZJChatOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 905CA337DE5F630C76C92811 /* libPods-ZJChatOC.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2451B7119192735CA00BBE71 /* Pods-ZJChatOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJChatOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJChatOC/Pods-ZJChatOC.release.xcconfig"; sourceTree = "<group>"; };
 		3F4EAC261D649C8800C1208C /* UIView+Border&CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Border&CornerRadius.h"; sourceTree = "<group>"; };
 		3F4EAC271D649C8800C1208C /* UIView+Border&CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Border&CornerRadius.m"; sourceTree = "<group>"; };
 		3F4EAC281D649C8800C1208C /* ZJ_Func.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJ_Func.h; sourceTree = "<group>"; };
@@ -394,9 +395,8 @@
 		3FEB90F91D65B46800116061 /* NSString+Emojize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emojize.h"; sourceTree = "<group>"; };
 		3FEB90FA1D65B46800116061 /* NSString+Emojize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emojize.m"; sourceTree = "<group>"; };
 		3FF4A3DE1D682F6000B129FF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		94D7666E3C70ED33F07D1098 /* Pods-ZJChatOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJChatOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJChatOC/Pods-ZJChatOC.release.xcconfig"; sourceTree = "<group>"; };
-		C7ECD4AA0197A3C3D6372126 /* Pods-ZJChatOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJChatOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJChatOC/Pods-ZJChatOC.debug.xcconfig"; sourceTree = "<group>"; };
-		DE6C703F1F2CAD3FB5E255E0 /* libPods-ZJChatOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZJChatOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		905CA337DE5F630C76C92811 /* libPods-ZJChatOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZJChatOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B483B8C96533BDA023B2ECF8 /* Pods-ZJChatOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJChatOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJChatOC/Pods-ZJChatOC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -408,28 +408,19 @@
 				3FBA03251D61C52800F72C48 /* UIKit.framework in Frameworks */,
 				3FEB90F21D65B0EF00116061 /* libopencore-amrnb.a in Frameworks */,
 				3FEB90F31D65B0EF00116061 /* libopencore-amrwb.a in Frameworks */,
-				0DFE8F2738B6722ED29E2644 /* libPods-ZJChatOC.a in Frameworks */,
+				6CEF704DB9F52D2D77CBDFE9 /* libPods-ZJChatOC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2A0CCA3DF9A420CBEF374AAB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C7ECD4AA0197A3C3D6372126 /* Pods-ZJChatOC.debug.xcconfig */,
-				94D7666E3C70ED33F07D1098 /* Pods-ZJChatOC.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		2D5D91D41650341CBCFD17B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				3FF4A3DE1D682F6000B129FF /* AVFoundation.framework */,
 				3FBA03241D61C52700F72C48 /* UIKit.framework */,
-				DE6C703F1F2CAD3FB5E255E0 /* libPods-ZJChatOC.a */,
+				905CA337DE5F630C76C92811 /* libPods-ZJChatOC.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -533,8 +524,8 @@
 			children = (
 				3FB4ECFC1D61B77F00BFCE8F /* ZJChatOC */,
 				3FB4ECFB1D61B77F00BFCE8F /* Products */,
-				2A0CCA3DF9A420CBEF374AAB /* Pods */,
 				2D5D91D41650341CBCFD17B5 /* Frameworks */,
+				4007CE40DF898690D3213117 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -935,6 +926,15 @@
 			path = NSStringEmojize;
 			sourceTree = "<group>";
 		};
+		4007CE40DF898690D3213117 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B483B8C96533BDA023B2ECF8 /* Pods-ZJChatOC.debug.xcconfig */,
+				2451B7119192735CA00BBE71 /* Pods-ZJChatOC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -942,12 +942,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FB4ED111D61B77F00BFCE8F /* Build configuration list for PBXNativeTarget "ZJChatOC" */;
 			buildPhases = (
-				415AB0AE8284728A8FDBD8E1 /* Check Pods Manifest.lock */,
+				91A820C4E43A0C98A35D3D38 /* [CP] Check Pods Manifest.lock */,
 				3FB4ECF61D61B77F00BFCE8F /* Sources */,
 				3FB4ECF71D61B77F00BFCE8F /* Frameworks */,
 				3FB4ECF81D61B77F00BFCE8F /* Resources */,
-				1BB9ADB9C503E0A76B0DF49E /* Embed Pods Frameworks */,
-				77FCBE4FCEA64B912F4C9C2F /* Copy Pods Resources */,
+				B755A4314E9A577BFA5837C2 /* [CP] Embed Pods Frameworks */,
+				027565F282AA0475E1DB3FA9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -964,12 +964,12 @@
 		3FB4ECF21D61B77F00BFCE8F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "张剑";
 				TargetAttributes = {
 					3FB4ECF91D61B77F00BFCE8F = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 6U6NNJD6PX;
+						DevelopmentTeam = ZE78BS9TBK;
 					};
 				};
 			};
@@ -1102,49 +1102,52 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1BB9ADB9C503E0A76B0DF49E /* Embed Pods Frameworks */ = {
+		027565F282AA0475E1DB3FA9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJChatOC/Pods-ZJChatOC-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		415AB0AE8284728A8FDBD8E1 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		77FCBE4FCEA64B912F4C9C2F /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJChatOC/Pods-ZJChatOC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91A820C4E43A0C98A35D3D38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZJChatOC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B755A4314E9A577BFA5837C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJChatOC/Pods-ZJChatOC-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1244,14 +1247,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1290,14 +1299,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1323,10 +1338,10 @@
 		};
 		3FB4ED121D61B77F00BFCE8F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7ECD4AA0197A3C3D6372126 /* Pods-ZJChatOC.debug.xcconfig */;
+			baseConfigurationReference = B483B8C96533BDA023B2ECF8 /* Pods-ZJChatOC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6U6NNJD6PX;
+				DEVELOPMENT_TEAM = ZE78BS9TBK;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ZJChatOC/ZJChatOC.pch";
@@ -1344,10 +1359,10 @@
 		};
 		3FB4ED131D61B77F00BFCE8F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94D7666E3C70ED33F07D1098 /* Pods-ZJChatOC.release.xcconfig */;
+			baseConfigurationReference = 2451B7119192735CA00BBE71 /* Pods-ZJChatOC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6U6NNJD6PX;
+				DEVELOPMENT_TEAM = ZE78BS9TBK;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ZJChatOC/ZJChatOC.pch";
